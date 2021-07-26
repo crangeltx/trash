@@ -1,0 +1,226 @@
+body {
+    text-align: center;
+    background-color: black;
+  }
+  ul {
+    display: inline-block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+}
+  li {
+  display: inline-block;
+}
+  .photo {
+    position: absolute;
+    width: 607px;
+    height: 828px;
+    left: 860px;
+    top: 103px;
+    background: url("../images/Cathy2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    transform: rotate(-5.18deg);
+  }
+  .home {
+    width: 93px;
+    color: rgba(255,255,255,1);
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+
+  .home:hover {
+    color: rgba(0,209,255,1);
+    cursor: pointer;
+  }
+
+  .about_me {
+    width: 155px;
+    color: rgba(255,255,255,1);
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+
+  .about_me:hover {
+    color: rgba(0,209,255,1);
+    cursor: pointer;
+  }
+
+  .contact {
+    width: 190px;
+    color: rgba(0,209,255,1);    
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+  
+  .resume {
+    width: 130px;
+    color: rgba(255,255,255,1);
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+  .resume:hover {
+    color: rgba(0,209,255,1);
+    cursor: pointer;
+  }
+  .projects {
+    width: 155px;
+    color: rgba(255,255,255,1);
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+  .projects:hover {
+    color: rgba(0,209,255,1);
+    cursor: pointer;
+  }
+  .linkedin {
+    width: 146px;
+    color: rgba(255,255,255,1);
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+  .linkedin:hover {
+    color: rgba(0,209,255,1);
+    cursor: pointer;
+  }
+  .phone {
+    width: 729px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 431px;
+    left: 64px;
+    font-family: Public Sans;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .email {
+    width: 729px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 469px;
+    left: 64px;
+    font-family: Public Sans;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .linkedinLink {
+    width: 729px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 505px;
+    left: 64px;
+    font-family: Public Sans;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .header1 {
+    width: 729px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 220px;
+    left: 64px;
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+  }
+  .header2 {
+    width: 729px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 285px;
+    left: 64px;
+    font-family: Public Sans;
+    font-weight: Regular;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .footer {
+    width: 203px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 801px;
+    left: 58px;
+    overflow: hidden;
+  }
+  .logo {
+    width: 199px;
+    height: 142px;
+    background: url("../images/CB-Logo-w.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    overflow: hidden;
+  }
+  .copyright {
+    width: 197px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 146px;
+    left: 6px;
+    font-family: Public Sans;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: right;
+  }
+
+  @media all and (max-width: 768px) {
+    body {
+      background-color:dimgray; 
+    }
+    li {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 1fr);
+      text-align: center;
+    }
+  }
